@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en" class="menuo-theme">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Menuo Test</title>
+	<script src="js/libs/modernizr-dev.js"></script>
+
+    <!-- Bootstrap -->
+    <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900,200italic,300italic,400italic,600italic,700italic,900italic' rel='stylesheet' type='text/css'>
+    <link href="css/libs/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link href="css/widgets.css" rel="stylesheet" media="screen">
+    <link href="css/menuo-theme.css" rel="stylesheet" media="screen">
+	<link rel="stylesheet" href="css/libs/font-awesome/css/font-awesome.min.css">
+</head>
+<body>
+<div class="blurry-background"></div><!-- just for testing -->
+<div class="container">
+	<div class="row">
+		<div class="col-lg-4">
+			<div class="widget login-widget">
+				<form method="post" action="/login">
+					<h1 class="widget-head">Login</h1>
+					<div class="widget-body">
+						<div class="input-with-icon-on-left clearfix">
+							<label for="inputEmail" class="control-label">
+								<i class="icon-user" alt="Username" title="Username"></i>
+							</label>
+							<input type="text" class="form-control" id="username" placeholder="email@provider.com">
+						</div>
+						<div class="input-with-icon-on-left clearfix">
+							<label for="password" class="col-lg-2 control-label">
+								<i class="icon-lock" alt="Password" title="Password"></i>
+							</label>
+							<input type="password" class="form-control" id="password" placeholder="Password">
+						</div>
+					</div>
+					<div class="widget-foot">
+						<!-- button -->
+						<a type="submit" class="btn btn-default widget-button-icon-text">
+							<span class="icon-stack">
+          						<i class="icon-circle icon-stack-base"></i>
+								<i class="icon-play icon-light"></i>
+							</span>
+							Sign in
+						</a>
+					</div>
+				</form>
+			</div>
+		</div>
+		<div class="col-lg-8">
+			<div class="widget twitter-widget">
+				<form action="/post" method="post">
+					<div class="widget-head">
+						<div class="twitter-avatar">
+							<svg id="avatar-frame" xmlns="http://www.w3.org/2000/svg">
+						      <circle id="circle" cx="50%" cy="50%" r="38%" stroke="#ffffff" fill-opacity="0" fill="#000000" />
+						    </svg>
+							<img src="img/avatar.png" class="clipped-image" />
+						</div>
+						<i class="icon-twitter background-icon"></i>
+						<div class="twitter-names">
+							<span class="twitter-name">Abhimanyu Rana</span>
+							<br />
+							<span class="twitter-handle">@planetabhi</span>
+						</div>
+					</div>
+					<div class="widget-body">
+						<div class="tweet-stats">
+							<ul>
+								<li>
+									<div>750</div>
+									<div>Tweets</div>
+								</li>
+								<li>
+									<div>862</div>
+									<div>Following</div>
+								</li>
+								<li>
+									<div>6756</div>
+									<div>Followers</div>
+								</li>
+							</ul>
+						</div>
+						<div class="tweet-body">
+							<textarea id="tweet-text" name="tweet-text"></textarea>
+							<input type="hidden" id="username" />
+							<input type="hidden" id="nonce" />
+						</div>
+					</div>
+					<div class="widget-foot">
+						<div class="twitter-buttons">
+							<!-- photo -->
+							<a class="btn btn-default widget-button-icon widget-button-upload-photo">
+								<i class="icon-camera" title="Upload Photo"></i>
+							</a>
+							<!-- location -->
+							<a class="btn btn-default widget-button-icon widget-button-location">
+								<i class="icon-map-marker" title="Set Location"></i>
+							</a>
+							<!-- tweet -->	
+							<a class="btn btn-default widget-button-icon-text widget-button-submit">
+								<span class="icon-stack">
+	          						<i class="icon-circle icon-stack-base"></i>
+									<i class="icon-twitter icon-light" title="Send Tweet"></i>
+								</span>
+								Tweet
+							</a>
+						</div>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-lg-8">
+			<div class="widget message-widget">
+				<form action="/message" method="post">
+					<div class="widget-head"><i class="icon-edit"></i>Send a Note</div>
+					<div class="widget-body">
+						<div class="row">
+							<div class="col-lg-8">
+								<div class="input-with-icon-on-right">
+									<label for="message_name" class="col-lg-2 control-label">
+										<i class="icon-user" alt="Name" title="Name"></i>
+									</label>
+									<input type="text" class="form-control" id="message_name" placeholder="Name">
+								</div>
+							</div>
+							<div class="col-lg-4">
+								<div class="input-with-icon-on-right">
+									<label for="password" class="col-lg-2 control-label">
+										<i class="icon-key" alt="Password" title="Password"></i>
+									</label>
+									<input type="text" class="form-control" id="message_password" placeholder="Password">
+								</div>
+							</div>
+						</div>
+
+
+						<div class="row">
+							<div class="col-lg-8">
+								<div class="input-with-icon-on-right">
+									<label for="message_name" class="col-lg-2 control-label">
+										<i class="icon-facebook-sign" alt="Facebook" title="Facebook"></i>
+									</label>
+									<input type="text" class="form-control" id="message_facebook" placeholder="Facebook URL">
+								</div>
+							</div>
+							<div class="col-lg-4">
+								<div class="input-with-icon-on-right">
+									<label for="password" class="col-lg-2 control-label">
+										<i class="icon-calendar" alt="Birth Date" title="Birth Date"></i>
+									</label>
+									<input type="text" class="form-control" id="message_birthday" placeholder="Birth Date">
+								</div>
+							</div>
+						</div>
+
+
+
+
+						<div class="row">
+							<div class="col-lg-4">
+								<div class="input-with-icon-on-right">
+									<label for="message_name" class="col-lg-2 control-label">
+										<i class="icon-camera" alt="Add Image" title="Add Image"></i>
+									</label>
+									<input type="text" class="form-control" id="message_image" placeholder="Add Image">
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="widget-foot">
+						<a class="btn btn-default widget-button-icon-text widget-button-submit">
+							<span class="icon-stack">
+          						<i class="icon-circle icon-stack-base"></i>
+								<i class="icon-play icon-light" title="Send"></i>
+							</span>
+							Send
+						</a>
+					</div>
+					<input type="hidden" value="{{filledin}}" id="message_nonce" name="message_nonce" />
+					<input type="hidden" value="{{filledin}}" id="message_nonce" name="message_nonce" />
+				</form>
+			</div>
+		</div>
+		<div class="col-lg-4">
+			<div class="widget phone-widget">
+				<div class="widget-head"><i class="icon-phone icon-rotate-270"></i>Calling Sara...</div>
+				<div class="widget-body">
+
+
+				</div>
+				<div class="widget-foot">Footer</div>
+			</div>
+		</div>
+	</div>
+</div>
+	<!-- SCRIPTS -->
+	<script src="js/libs/jquery-1.10.2.js"></script>
+    <script src="js/libs/bootstrap.min.js"></script>
+</body>
+</html>

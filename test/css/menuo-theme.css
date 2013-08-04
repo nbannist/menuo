@@ -1,0 +1,331 @@
+/*
+// menuo-theme.css
+// ------------------
+// 
+// 
+// 
+// 
+// 
+// 
+// 
+// 
+*/
+.clearfix {
+  *zoom: 1;
+}
+.clearfix:before,
+.clearfix:after {
+  display: table;
+  content: "";
+  line-height: 0;
+}
+.clearfix:after {
+  clear: both;
+}
+.menuo-theme .background-icon {
+  position: absolute;
+}
+.menuo-theme .widget .btn {
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -ms-border-radius: 2px;
+  -o-border-radius: 2px;
+  border-radius: 2px;
+  width: auto;
+  border-bottom-width: 2px;
+  border-top-width: 1px;
+  height: 80px;
+  line-height: 65px;
+  font-size: 1.25em;
+  text-transform: uppercase;
+}
+.menuo-theme .widget .btn i {
+  font-size: 2em;
+}
+.menuo-theme .widget .btn .icon-stack [class^="icon-"] {
+  color: #fff;
+  font-size: 1em;
+}
+.menuo-theme .widget .btn .icon-stack .icon-stack-base {
+  font-size: 2em;
+  color: #FF4B4A;
+}
+.menuo-theme .widget .btn.widget-button-icon-text {
+  background-color: #FF6766;
+  border-color: #E4736F;
+  border-bottom-color: #D0605C;
+  border-top-color: #D0605C;
+  line-height: 41px;
+}
+.menuo-theme .widget .btn.widget-button-icon {
+  background-color: #94846D;
+  border-bottom-color: #86745C;
+  border-top-color: #86745C;
+}
+.menuo-theme .widget .widget-button-icon {
+  height: 57px;
+  line-height: 57px;
+}
+.menuo-theme .widget .widget-button-icon-text {
+  width: auto;
+  height: 57px;
+  line-height: 57px;
+}
+.menuo-theme .widget .widget-button-icon-text {
+  width: 100%;
+}
+.menuo-theme .widget .widget-head {
+  background-color: #97CE68;
+  text-transform: uppercase;
+  color: #fff;
+  padding: 2px;
+  position: relative;
+  line-height: 50px;
+}
+.menuo-theme .widget .widget-head i {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 50px;
+  width: 50px;
+  padding: 0px 10px 0px 10px;
+  line-height: 50px;
+  font-size: 1em;
+}
+.menuo-theme .widget .widget-head i.background-icon {
+  position: absolute;
+}
+.menuo-theme .widget .widget-foot {
+  background-color: #EDEDE3;
+  padding: 20px;
+}
+.menuo-theme .widget .input-with-icon-on-left,
+.menuo-theme .widget .input-with-icon-on-right {
+  padding: 20px 20px 0px 20px;
+}
+.menuo-theme .widget .input-with-icon-on-left .control-label,
+.menuo-theme .widget .input-with-icon-on-right .control-label {
+  height: 57px;
+  line-height: 57px;
+  width: 57px;
+  float: left;
+  text-align: center;
+  background-color: #EDEDE3;
+  color: #C0BDB6;
+  font-size: 2em;
+}
+.menuo-theme .widget .input-with-icon-on-left input,
+.menuo-theme .widget .input-with-icon-on-right input {
+  border: 1px solid #89867D;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+  font-size: 1.25em;
+  font-weight: 200;
+  color: #B9B8B4;
+  height: 57px;
+  width: 75%;
+  float: left;
+}
+.menuo-theme .widget .input-with-icon-on-left input:focus,
+.menuo-theme .widget .input-with-icon-on-right input:focus {
+  color: #928575;
+}
+.menuo-theme .widget .input-with-icon-on-left .control-label {
+  border-top: 1px solid #89867D;
+  border-right: 1px solid #89867D;
+  border-bottom: 1px solid #89867D;
+  border-left: 1px solid #89867D;
+  border-bottom-left-radius: 4px;
+  border-top-left-radius: 4px;
+  border-right: none;
+}
+.menuo-theme .widget .input-with-icon-on-left input {
+  border: 1px solid #89867D;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+}
+.menuo-theme .widget .input-with-icon-on-right {
+  position: relative;
+  height: 57px;
+}
+.menuo-theme .widget .input-with-icon-on-right input {
+  float: left;
+  border: 1px solid #89867D;
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+  width: 98%;
+}
+.menuo-theme .widget .input-with-icon-on-right label {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  border-top: 1px solid #89867D;
+  border-right: 1px solid #89867D;
+  border-bottom: 1px solid #89867D;
+  border-left: 1px solid #89867D;
+  border-bottom-left-radius: 0px;
+  border-top-left-radius: 0px;
+  border-bottom-right-radius: 4px;
+  border-top-right-radius: 4px;
+}
+.menuo-theme .widget.login-widget .btn .icon-circle {
+  color: #FF4B4A;
+}
+.menuo-theme .widget.login-widget .btn .icon-play {
+  color: #fff;
+}
+.menuo-theme .widget.twitter-widget {
+  overflow: hidden;
+}
+.menuo-theme .widget.twitter-widget .widget-head {
+  position: relative;
+  background-color: #6BCBCA;
+  height: auto;
+  vertical-align: 50%;
+  text-align: left;
+  width: 100%;
+  display: table;
+  overflow: hidden;
+}
+.menuo-theme .widget.twitter-widget .widget-head .twitter-avatar {
+  position: relative;
+  width: 32%;
+  height: auto;
+  background-color: #6BCBCA;
+  display: table-cell;
+}
+.menuo-theme .widget.twitter-widget .widget-head .twitter-avatar #avatar-frame {
+  width: 100%;
+  height: auto;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+.menuo-theme .widget.twitter-widget .widget-head .twitter-avatar .clipped-image {
+  width: 100%;
+  position: relative;
+  clip-path: circle(50%, 50%, 33%);
+  -webkit-clip-path: circle(50%, 50%, 33%);
+  -o-webkit-clip-path: circle(50%, 50%, 33%);
+  -moz-webkit-clip-path: circle(50%, 50%, 33%);
+  -ms-webkit-clip-path: circle(50%, 50%, 33%);
+}
+.menuo-theme .widget.twitter-widget .widget-head i.background-icon {
+  position: absolute;
+  bottom: 0px;
+  right: 0%;
+  top: 33%;
+  left: auto;
+  color: #89D5D5;
+  font-size: 28em;
+  width: 1em;
+  -webkit-transform: rotate(345deg);
+  -moz-transform: rotate(345deg);
+  -o-transform: rotate(345deg);
+  -ms-transform: rotate(345deg);
+}
+.menuo-theme .widget.twitter-widget .widget-head .twitter-names {
+  *zoom: 1;
+  position: relative;
+  vertical-align: middle;
+  line-height: 100%;
+  display: table-cell;
+  overflow: hidden;
+  clip: rect(0 100% 100% 0);
+  width: 68%;
+}
+.menuo-theme .widget.twitter-widget .widget-head .twitter-names:before,
+.menuo-theme .widget.twitter-widget .widget-head .twitter-names:after {
+  display: table;
+  content: "";
+  line-height: 0;
+}
+.menuo-theme .widget.twitter-widget .widget-head .twitter-names:after {
+  clear: both;
+}
+.menuo-theme .widget.twitter-widget .widget-head .twitter-names span {
+  display: inline;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.menuo-theme .widget.twitter-widget .widget-head .twitter-names span.twitter-name {
+  font-size: 3em;
+  line-height: 1em;
+}
+.menuo-theme .widget.twitter-widget .widget-head .twitter-names span.twitter-handle {
+  font-size: 1em;
+  line-height: 1em;
+}
+.menuo-theme .widget.twitter-widget .widget-body {
+  padding-bottom: 0px;
+}
+.menuo-theme .widget.twitter-widget .widget-body .tweet-stats {
+  background-color: #EDEDE3;
+}
+.menuo-theme .widget.twitter-widget .widget-body .tweet-stats ul {
+  *zoom: 1;
+  list-style: none;
+  margin: 0px;
+  padding: 20px;
+}
+.menuo-theme .widget.twitter-widget .widget-body .tweet-stats ul:before,
+.menuo-theme .widget.twitter-widget .widget-body .tweet-stats ul:after {
+  display: table;
+  content: "";
+  line-height: 0;
+}
+.menuo-theme .widget.twitter-widget .widget-body .tweet-stats ul:after {
+  clear: both;
+}
+.menuo-theme .widget.twitter-widget .widget-body .tweet-stats ul li {
+  display: table;
+  float: left;
+  width: 33%;
+  height: 52px;
+  text-align: center;
+  border-left: 1px solid #DDDDD3;
+}
+.menuo-theme .widget.twitter-widget .widget-body .tweet-stats ul li:first-child {
+  border-left: none;
+}
+.menuo-theme .widget.twitter-widget .widget-body .tweet-stats ul li div:first-child {
+  color: #8E8371;
+  width: 100%;
+  font-size: 1.75em;
+  height: 32px;
+}
+.menuo-theme .widget.twitter-widget .widget-body .tweet-stats ul li div:last-child {
+  color: #8E8371;
+  font-size: 1em;
+  width: 100%;
+  height: 20px;
+}
+.menuo-theme .widget.twitter-widget .widget-body .tweet-body textarea {
+  width: 90%;
+  height: 90px;
+  margin: 20px 5% 20px 5%;
+  padding: 10px;
+  font-size: 20px;
+}
+.menuo-theme .widget.twitter-widget .widget-foot .twitter-buttons a.btn {
+  height: 56px;
+  line-height: 41px;
+  width: 15%;
+  margin: 20px 1% 20px 1%;
+}
+.menuo-theme .widget.twitter-widget .widget-foot .twitter-buttons a.btn:first-child {
+  margin: 20px 1% 20px 0px;
+}
+.menuo-theme .widget.twitter-widget .widget-foot .twitter-buttons a.btn.widget-button-icon-text {
+  width: 64%;
+}
+.menuo-theme .widget.message-widget .widget-body {
+  padding: 0px 2% 0px 2%;
+}
